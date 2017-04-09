@@ -1,0 +1,17 @@
+<p>Welcome to cheap to adviser</p>
+
+
+<form action="/restaurants" method="get">
+<input type="text" name="food_type" placeholder="What kind"><input type="submit">
+</form>
+
+<ul>
+<% @categories.each do |categorie| %>
+ <li><%= categorie%></li>
+<% end %>
+</ul>
+
+<p>Let's add the restaurant</p>
+
+
+
